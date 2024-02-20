@@ -29,6 +29,34 @@
   <link rel="stylesheet" href="assets/css/slick-theme.css" />
 
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .responsive-slick .slick-slide{
+      padding: 20px;
+    }
+    .responsive-slick .slick-slide .slide-content{
+      height: 200px;
+      line-height: 200px;
+    }
+    .responsive-slick .slick-slide .slide-content img{
+      display: inline-block;
+    }
+
+    .slick-next:before {
+      content: '→';
+    }
+    .responsive-slick .slick-prev:before, .slick-next:before {
+      font-family: 'slick';
+      font-size: 50px;
+      line-height: 1;
+      color: #e6195e;
+    }
+    .responsive-slick .slick-next {
+      right: -20px;
+    }
+    .responsive-slick .slick-prev {
+      left: -50px;
+    }
+  </style>
 </head>
 
 <body>
