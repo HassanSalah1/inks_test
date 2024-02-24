@@ -56,6 +56,9 @@
     .responsive-slick .slick-prev {
       left: -50px;
     }
+    .sidebar-left{
+      background-color: #f7f7f7;
+    }
   </style>
 </head>
 
@@ -117,17 +120,25 @@
     </div>
     <div class="sidebar-content">
       <div class="sidebar-logo">
-        <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
+        <a href="#"><img src="assets/images/logo.jpeg" alt="Logo" /></a>
       </div>
       <p class="text"></p>
       <!-- logo -->
-      <div class="sidebar-menu" style="background-color: var(--primary)">
+      <div class="sidebar-menu" >
         <h5 class="menu-title">Quick Links</h5>
         <ul>
-          <li><a href="javascript:void(0)">About Us</a></li>
-          <li><a href="javascript:void(0)">Our Team</a></li>
-          <li><a href="javascript:void(0)">Latest News</a></li>
-          <li><a href="javascript:void(0)">Contact Us</a></li>
+          <li class="nav-item">
+            <a class="page-scroll active" href="#hero-area">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="page-scroll" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="page-scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
       <!-- menu -->
@@ -331,10 +342,10 @@
           <div class="col-12">
             <div class="content">
               <h6>Services</h6>
-              <h2 class="fw-bold">Idea to Reality</h2>
+              <h2 class="fw-bold">Creating The Difference</h2>
               <p>
                 Specialized approach through separate companies' setups, each focused and
-                dedicated to accelerate different milestones from idea to reality
+                dedicated to accelerate different milestones from creating the difference
               </p>
             </div>
           </div>
@@ -439,7 +450,7 @@
             <button data-filter="all" class="active">ALL WORK</button>
             <button data-filter="planning" class="">Events</button>
             <button data-filter="research" class="">Exhibitions</button>
-            <button data-filter="branding" class="">STANDS</button>
+            <button data-filter="branding" class="">Activations</button>
           </div>
         </div>
       </div>
@@ -507,6 +518,31 @@
           </div>
 
         </div>
+        <div class="col-lg-4 col-sm-6 show" data-filter="branding">
+          <div class="portfolio-style-three">
+            <div class="portfolio-image">
+              <img src="assets/images/portfolio/activation_3.jpeg" alt="image">
+              <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                <div class="portfolio-content">
+                  <div class="portfolio-icon">
+                    <a class="image-popup-three glightbox3" href="assets/images/portfolio/activation_3.jpeg">
+                      <i class="lni lni-zoom-in"> </i>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-text">
+              <h4 class="portfolio-title">
+                <a href="javascript:void(0)">Activations</a>
+              </h4>
+              <p class="text">
+                Parkville ( Super Kids Activation)
+              </p>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 col-sm-6 show" data-filter="planning">
           <div class="portfolio-style-three">
             <div class="portfolio-image">
@@ -573,12 +609,7 @@
           <div class="portfolio-style-three">
             <div class="portfolio-image">
               <img src="assets/images/portfolio/stand.png" alt="image">
-              <div class="
-                  portfolio-overlay
-                  d-flex
-                  align-items-center
-                  justify-content-center
-                ">
+              <div class="portfolio-overlay d-flex align-items-center justify-content-center">
                 <div class="portfolio-content">
                   <div class="portfolio-icon">
                     <a class="image-popup-three glightbox3" href="assets/images/portfolio/stand.png">
@@ -591,19 +622,18 @@
             </div>
             <div class="portfolio-text">
               <h4 class="portfolio-title">
-                <a href="javascript:void(0)">STANDS</a>
+                <a href="javascript:void(0)">Activations</a>
               </h4>
               <p class="text">
-                Danone Instore Stand
+                Danone Instore Activation
               </p>
             </div>
           </div>
-
         </div>
-        <div class="col-lg-4 col-sm-6 show" data-filter="branding">
+        <div class="col-lg-4 col-sm-6 show" data-filter="research">
           <div class="portfolio-style-three">
             <div class="portfolio-image">
-              <img src="assets/images/portfolio/stand2.png" alt="image" style="min-height: 274px">
+              <img src="assets/images/portfolio/exh3.jpeg" alt="image">
               <div class="
                   portfolio-overlay
                   d-flex
@@ -612,7 +642,7 @@
                 ">
                 <div class="portfolio-content">
                   <div class="portfolio-icon">
-                    <a class="image-popup-three glightbox3" href="assets/images/portfolio/stand2.png">
+                    <a class="image-popup-three glightbox3" href="assets/images/portfolio/exh3.jpeg">
                       <i class="lni lni-zoom-in"> </i>
                     </a>
                   </div>
@@ -622,15 +652,72 @@
             </div>
             <div class="portfolio-text">
               <h4 class="portfolio-title">
-                <a href="javascript:void(0)">STANDS</a>
+                <a href="javascript:void(0)">Exhibitions</a>
               </h4>
               <p class="text">
-                Nestle Instore Stand
+                ACM @ ICCE 2023
               </p>
             </div>
           </div>
 
         </div>
+        <div class="col-lg-4 col-sm-6 show" data-filter="branding">
+          <div class="portfolio-style-three">
+            <div class="portfolio-image">
+              <img src="assets/images/portfolio/activation_2.jpeg" alt="image">
+              <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                <div class="portfolio-content">
+                  <div class="portfolio-icon">
+                    <a class="image-popup-three glightbox3" href="assets/images/portfolio/activation_2.jpeg">
+                      <i class="lni lni-zoom-in"> </i>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-text">
+              <h4 class="portfolio-title">
+                <a href="javascript:void(0)">Activations</a>
+              </h4>
+              <p class="text">
+                Nestle Activation Launch
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 show" data-filter="research">
+          <div class="portfolio-style-three">
+            <div class="portfolio-image">
+              <img src="assets/images/portfolio/exh4.jpeg" alt="image">
+              <div class="
+                  portfolio-overlay
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                ">
+                <div class="portfolio-content">
+                  <div class="portfolio-icon">
+                    <a class="image-popup-three glightbox3" href="assets/images/portfolio/exh4.jpeg">
+                      <i class="lni lni-zoom-in"> </i>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-text">
+              <h4 class="portfolio-title">
+                <a href="javascript:void(0)">Exhibitions</a>
+              </h4>
+              <p class="text">
+                ACM @ ICCE 2023
+              </p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
     </div>
